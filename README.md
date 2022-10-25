@@ -45,5 +45,20 @@ base_86[sapply(base_86, is.numeric)] <- lapply(base_86[sapply(base_86, is.numeri
 
 ### 3.1 Frecuencias
 
-### Variable Inicial: elec_pres_1
+### Variable Inicial: sexo
 table(base_86$sexo)
+
+### Variable segunda: pobreza
+table(base_86$pobreza_111)
+
+### variable tercera: religión
+table(base_86$religion_82)
+
+### variable cuarta: situación política
+table(base_86$percepcion_38)
+
+### variable quinta: identidad política
+table(base_86$iden_pol_2)
+
+### variable sexta: evaluación del Gobierno
+table(base_86$eval_gob_1)
